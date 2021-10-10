@@ -10,6 +10,7 @@ public class MainController {
 	@GetMapping("/")
 	 public @ResponseBody String index() {
 		return "emptyyy";
+		return "two";
 	 }
 	
 
